@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebLibrary.Helpers;
+using WebService.Helpers;
 
 namespace WebApplication
 {
@@ -13,6 +14,9 @@ namespace WebApplication
         {
             // Library
             services.AddSingleton<ICommonHelper, CommonHelper>();
+
+            // Service
+            services.AddSingleton<IWebServiceHelper, WebServiceHelper>();
 
             return services;
         }

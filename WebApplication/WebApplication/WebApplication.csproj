@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WebLibrary\WebLibrary.csproj" />
+    <ProjectReference Include="..\WebService\WebService.csproj" />
   </ItemGroup>
 
 </Project>
