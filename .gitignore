@@ -5,3 +5,6 @@
 /.vs
 /WebApplication/.vs/WebApplication
 /WebApplication/WebApplication/obj
+/WebApplication/WebDatabase/obj
+/WebApplication/WebLibrary/obj
+/WebApplication/WebService/obj
