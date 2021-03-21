@@ -6,6 +6,7 @@ namespace WebLibrary.Models
 {
     public class WebConfiguration
     {
+        public string HttpClientTimeOut { get; set; }
         public JwtSettings JwtSettings { get; set; }
     }
 
