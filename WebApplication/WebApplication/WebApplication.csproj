@@ -9,7 +9,6 @@
     <Folder Include="AppSettings\UAT\" />
     <Folder Include="AppSettings\PROD\" />
     <Folder Include="BackgroundServices\" />
-    <Folder Include="Extensions\" />
     <Folder Include="Factories\" />
     <Folder Include="Filters\" />
     <Folder Include="Helpers\" />
@@ -20,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WebDatabase\WebDatabase.csproj" />
     <ProjectReference Include="..\WebLibrary\WebLibrary.csproj" />
     <ProjectReference Include="..\WebService\WebService.csproj" />
   </ItemGroup>
