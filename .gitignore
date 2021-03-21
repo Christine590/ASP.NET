@@ -8,3 +8,7 @@
 /WebApplication/WebDatabase/obj
 /WebApplication/WebLibrary/obj
 /WebApplication/WebService/obj
+/WebApplication/WebApplication/bin/Debug/netcoreapp3.1
+/WebApplication/WebDatabase/bin/Debug/netstandard2.1
+/WebApplication/WebLibrary/bin/Debug/netstandard2.1
+/WebApplication/WebService/bin/Debug/netstandard2.1

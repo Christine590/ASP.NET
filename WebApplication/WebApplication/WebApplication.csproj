@@ -19,4 +19,8 @@
     <Folder Include="ViewModels\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebLibrary\WebLibrary.csproj" />
+  </ItemGroup>
+
 </Project>
